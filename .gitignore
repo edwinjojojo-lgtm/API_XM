@@ -130,3 +130,10 @@ dmypy.json
 # Pyre type checker
 .pyre/
 pydataxm_prb.py
+
+# VS Code (mantenemos solo settings/extensions/launch compartidos)
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/launch.json
+

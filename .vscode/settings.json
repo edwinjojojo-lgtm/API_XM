@@ -1,0 +1,25 @@
+{
+  "python.analysis.typeCheckingMode": "basic",
+  "python.analysis.autoImportCompletions": true,
+  "python.testing.pytestEnabled": false,
+  "python.testing.unittestEnabled": false,
+  "[python]": {
+    "editor.formatOnSave": false,
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true,
+    "editor.rulers": [100]
+  },
+  "[json]": {
+    "editor.tabSize": 2
+  },
+  "files.exclude": {
+    "**/__pycache__": true,
+    "**/*.egg-info": true,
+    "**/.pytest_cache": true,
+    "**/.ipynb_checkpoints": true
+  },
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+  "jupyter.askForKernelRestart": false,
+  "notebook.formatOnSave.enabled": false
+}
